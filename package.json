@@ -1,0 +1,42 @@
+{
+  "name": "agent-ia",
+  "version": "1.0.0",
+  "description": "estudo de agents ia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "vectorize": "ts-node src/vetorizeDocument.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliseuBueno/agent-ia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliseuBueno/agent-ia/issues"
+  },
+  "homepage": "https://github.com/EliseuBueno/agent-ia#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/pg": "^8.15.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.0.5",
+    "@langchain/core": "^1.0.0",
+    "@langchain/groq": "^1.0.2",
+    "@langchain/ollama": "^1.0.2",
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.6.1",
+    "js-tiktoken": "^1.0.21",
+    "langchain": "^1.1.1",
+    "openai": "^4.104.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.16.3"
+  }
+}
